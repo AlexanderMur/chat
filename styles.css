@@ -1,0 +1,46 @@
+
+#chat{
+	position: absolute;
+	background-color: white;
+	width: 700px;
+	height:95%;
+}
+#chatView{
+	margin-top: 20px;
+	overflow-y: scroll;
+	height: 80%
+}
+#chatFooter{
+	vertical-align: bottom;
+}
+.messageTop{
+	min-height: 16px
+}
+.messageBot{
+	display:inline-block;
+}
+.message{
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px
+}
+.name{
+	float: left;
+	color: #2a5885;
+	font-weight: bold
+}
+.date{
+	float:left;
+	color: gray;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 1.6;
+	margin-left: 2px
+}
+#input{
+	height: 50px;
+	width: 500px;
+	margin-left: 10px;
+	display: inline;
+	vertical-align: bottom;
+}
